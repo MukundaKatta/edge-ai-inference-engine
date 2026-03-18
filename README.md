@@ -1,41 +1,13 @@
 # edge-ai-inference-engine
 
-**Optimized inference engine for running AI models on edge devices**
+Stub Python project. Described as an edge AI inference engine, but none of that functionality exists.
 
-![Build](https://img.shields.io/badge/build-passing-brightgreen) ![License](https://img.shields.io/badge/license-proprietary-red)
+## What's actually here
 
-## Install
-```bash
-pip install -e ".[dev]"
-```
+A single class in `src/core.py` (EdgeAiInferenceEngine) with placeholder methods that each return a fixed dictionary without doing any real work. There is no model inference, no edge deployment, no hardware optimization - just stubs.
 
-## Quick Start
-```python
-from src.core import EdgeAiInferenceEngine
- instance = EdgeAiInferenceEngine()
-r = instance.process(input="test")
-```
+The project uses only Python standard library imports (time, logging, json, typing). No inference runtime or edge computing libraries are present.
 
-## CLI
-```bash
-python -m src status
-python -m src run --input "data"
-```
+## Status
 
-## API
-| Method | Description |
-|--------|-------------|
-| `process()` | Process |
-| `analyze()` | Analyze |
-| `transform()` | Transform |
-| `validate()` | Validate |
-| `export()` | Export |
-| `get_stats()` | Get stats |
-| `get_stats()` | Get stats |
-| `reset()` | Reset |
-
-## Test
-```bash
-pytest tests/ -v
-```
-
+Scaffolding only. No working edge AI inference functionality exists.
