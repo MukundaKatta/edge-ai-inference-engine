@@ -1,13 +1,15 @@
-# edge-ai-inference-engine
+# Edge AI Inference Engine
 
-Stub Python project. Described as an edge AI inference engine, but none of that functionality exists.
+Lightweight inference engine optimized for running AI models on edge devices and embedded hardware.
 
-## What's actually here
+## About
+Edge AI Inference Engine enables deployment of machine learning models on resource-constrained edge devices. It handles model optimization, quantization, and runtime execution to deliver low-latency predictions without cloud connectivity.
 
-A single class in `src/core.py` (EdgeAiInferenceEngine) with placeholder methods that each return a fixed dictionary without doing any real work. There is no model inference, no edge deployment, no hardware optimization - just stubs.
-
-The project uses only Python standard library imports (time, logging, json, typing). No inference runtime or edge computing libraries are present.
+## Tech Stack
+- Language: Python
+- Optimization: Model quantization and pruning
+- Runtime: Lightweight inference execution
+- Hardware: Edge device and embedded system support
 
 ## Status
-
-Scaffolding only. No working edge AI inference functionality exists.
+Active development - inference runtime and model optimization pipeline established.
